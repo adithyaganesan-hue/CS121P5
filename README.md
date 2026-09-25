@@ -10,10 +10,10 @@ direction TB
       int index
       int trackLength
       Horse()
-      init(int index, int trackLength)
+      void init(int index, int trackLength)
       void advance()
       void printLane()
-	  bool isWinner()
+	    bool isWinner()
     }
 
     class Race {
