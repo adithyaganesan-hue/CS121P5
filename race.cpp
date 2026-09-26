@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
+#include <unistd.h>
 
 const static int NUM_HORSES = 5;
 const static int TRACK_LENGTH = 15;
@@ -27,6 +28,7 @@ void Race::start() {
             } //end if
         } //end for
         std::cout << std::endl;
+        usleep(250000);
     } //end while
 } //end start
 
