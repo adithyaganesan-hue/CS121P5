@@ -16,13 +16,14 @@ direction TB
 	    bool isWinner()
     }
 
+
     class Race {
       int NUM_HORSES
       int TRACK_LENGTH
 	    Horse horses[NUM_HORSES]
 
       Race(int num, int tl)
-	    start()
+	    void start()
     }
 
     Horse --> Race

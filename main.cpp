@@ -2,13 +2,15 @@
 #include <cstdlib>
 #include <ctime>
 #include "horse.h"
+#include "race.h"
 
 void testHorse();
 
 int main(){
-	srand(time(NULL));
 	std::cout << "Race Game" << std::endl;
-	testHorse();
+
+	Race r;
+	r.start();
 	
 	return 0;
 }
