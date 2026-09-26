@@ -82,6 +82,7 @@ while(winner){
 		h::printLane()
 		if Horse::isWinner()
 			winner = false;
+	wait between turns for UX
 }
 ```
 
